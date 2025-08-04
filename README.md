@@ -1,4 +1,4 @@
-<h1>Gym Live Trainer Sessions
+<h1>Gym Live Trainer Sessions</h1>
 <p>This an Illustretion App For Live Trainer Session With Modren Design And Rich Of Features</p>
 <p>live Demo : https://soft-kulfi-ac1d2f.netlify.app/</p>
 <h2>Features</h2>
