@@ -16,7 +16,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Toaster
-        position="top-center"
+        position="top-left"
         gutter={12}
         containerStyle={{ margin: "8px" }}
         toastOptions={{
@@ -30,7 +30,7 @@ function App() {
             fontSize: "18px",
             maxWidth: "500px",
             padding: "16px 24px",
-            background: "rgba(34, 34, 34, 0.505)",
+            background: "#333",
             color: "#fff",
             borderRadius: "6px",
           },
