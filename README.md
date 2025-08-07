@@ -3,10 +3,13 @@
 <p>live Demo : https://soft-kulfi-ac1d2f.netlify.app/</p>
 <h2>Features</h2>
 <h3>What's new !</h3>
-<p>
-  -Updating The UI
-  -new font
-</p>
+<ul>
+  <li>Updating The UI</li>
+  <li>Add new font</li>
+  <li>New Functionality for mute the mic and the camera</li>
+  <li>more clean code</li>
+</ul>
+<hr/>
 <ul>
   <li>Simple Authentication</li>
   <li>Fully Form Validation</li>
