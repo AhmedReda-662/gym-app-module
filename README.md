@@ -1,6 +1,6 @@
 <h1>Gym Live Trainer Sessions v0.1</h1>
 <p>This an Illustretion App For Live Trainer Session With Modren Design And Rich Of Features</p>
-<p>live Demo : https://soft-kulfi-ac1d2f.netlify.app/</p>
+<p>live Demo : https://playful-kelpie-4f649e.netlify.app/</p>
 <h2>Features</h2>
 <h3>What's new !</h3>
 <ul>
