@@ -1,7 +1,12 @@
-<h1>Gym Live Trainer Sessions</h1>
+<h1>Gym Live Trainer Sessions v0.1</h1>
 <p>This an Illustretion App For Live Trainer Session With Modren Design And Rich Of Features</p>
 <p>live Demo : https://soft-kulfi-ac1d2f.netlify.app/</p>
 <h2>Features</h2>
+<h3>What's new !</h3>
+<p>
+  -Updating The UI
+  -new font
+</p>
 <ul>
   <li>Simple Authentication</li>
   <li>Fully Form Validation</li>
@@ -11,13 +16,7 @@
 </ul>
 <hr />
 <h3>ScreenShots</h3>
-<img width="1842" height="863" alt="image" src="https://github.com/user-attachments/assets/55ed7a9e-2070-4031-9b5f-6f8406e9ca0b" />
-<hr />
-<img width="1852" height="867" alt="image" src="https://github.com/user-attachments/assets/1f523309-6f69-445b-901e-70dddeb438cb" />
-<hr />
-<img width="1851" height="870" alt="image" src="https://github.com/user-attachments/assets/d537e9b2-52ce-4c03-b5ce-59582f957527" />
-<hr />
-<img width="1850" height="871" alt="image" src="https://github.com/user-attachments/assets/e52bf4b8-69fd-436c-a8e2-141241685713" />
+<img width="1892" height="903" alt="image" src="https://github.com/user-attachments/assets/61a376cd-9b41-403e-bd2a-622f04c77b11" />
 <hr />
 
 
