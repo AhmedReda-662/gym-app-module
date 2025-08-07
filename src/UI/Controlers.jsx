@@ -1,12 +1,15 @@
 import { IoPlayOutline } from "react-icons/io5";
-import { IoCameraOutline } from "react-icons/io5";
 import { IoMicOutline } from "react-icons/io5";
 import { BsDisplay } from "react-icons/bs";
 import { FaRegSquareFull } from "react-icons/fa6";
 import { CiPause1 } from "react-icons/ci";
+import { BsMicMute } from "react-icons/bs";
+import { FiCameraOff } from "react-icons/fi";
+import { FiCamera } from "react-icons/fi";
 import { useData } from "../context/DataContext";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import useControllers from "../hooks/useControllers";
 function Controlers() {
   const { dispatch } = useData();
   const [running, setRunning] = useState(false);
@@ -22,6 +25,7 @@ function Controlers() {
       setToggle(true);
     }
   }
+  const { micOpen, setMicOpen, camOpen, setCamOpen } = useControllers();
   return (
     <div className="bg-black/60 backdrop-blur-sm rounded-2xl px-6 py-3 border border-gray-600/30">
       <div className="flex items-center space-x-4">
@@ -58,11 +62,33 @@ function Controlers() {
           </>
         )}
         <div className="w-px h-8 bg-gray-600" />
-        <button className="p-3.5 rounded-xl transition-colors bg-gray-600 hover:bg-gray-700 cursor-pointer">
-          <IoCameraOutline className="text-white text-xl" />
+        <button
+          className={`p-3.5 rounded-xl transition-colors ${
+            camOpen
+              ? "bg-gray-600 hover:bg-gray-700 "
+              : "bg-red-600 hover:bg-red-700"
+          } cursor-pointer`}
+          onClick={() => setCamOpen((e) => !e)}
+        >
+          {camOpen ? (
+            <FiCamera className="text-white text-xl" />
+          ) : (
+            <FiCameraOff className="text-white text-xl" />
+          )}
         </button>
-        <button className="p-3.5 rounded-xl transition-colors bg-gray-600 hover:bg-gray-700 cursor-pointer">
-          <IoMicOutline className="text-white text-xl" />
+        <button
+          className={`p-3.5 rounded-xl transition-colors ${
+            micOpen
+              ? "bg-gray-600 hover:bg-gray-700 "
+              : "bg-red-600 hover:bg-red-700"
+          } cursor-pointer`}
+          onClick={() => setMicOpen((e) => !e)}
+        >
+          {micOpen ? (
+            <IoMicOutline className="text-white text-xl" />
+          ) : (
+            <BsMicMute className="text-white text-xl" />
+          )}
         </button>
         <button className="p-3.5 rounded-xl transition-colors bg-gray-600 hover:bg-gray-700 cursor-pointer">
           <BsDisplay className="text-white text-xl" />
