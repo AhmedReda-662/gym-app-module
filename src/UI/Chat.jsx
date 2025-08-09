@@ -46,7 +46,7 @@ function Chat() {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center space-x-2">
                   <span className="text-sm font-medium text-blue-400">
-                    Alex Johnson
+                    John Doe
                   </span>
                   <span className="px-1.5 py-0.5 bg-blue-600/20 text-blue-300 text-xs rounded border border-blue-600/30">
                     Trainer
